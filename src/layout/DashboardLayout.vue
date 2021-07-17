@@ -8,9 +8,9 @@
       <template slot="links">
         <sidebar-item
           :link="{
-            name: 'Dashboard',
-            icon: 'ni ni-tv-2 text-primary',
-            path: '/dashboard'
+            name: 'Users',
+            icon: 'fa fa-users text-primary',
+            path: '/users'
           }"
         />
 

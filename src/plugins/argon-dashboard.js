@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
 import '@/assets/vendor/nucleo/css/nucleo.css';
 import '@/assets/scss/argon.scss';
 import globalComponents from './globalComponents';
 import globalDirectives from './globalDirectives';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
 import SidebarPlugin from '@/components/SidebarPlugin/index';
 import NotificationPlugin from '@/components/NotificationPlugin/index';
 
