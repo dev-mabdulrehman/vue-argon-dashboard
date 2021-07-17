@@ -20,10 +20,12 @@ import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
 import ArgonDashboard from './plugins/argon-dashboard'
+import BootstrapVue from 'bootstrap-vue';
 
 Vue.config.productionTip = false
 
 Vue.use(ArgonDashboard)
+Vue.use(BootstrapVue);
 new Vue({
   router,
   render: h => h(App)
